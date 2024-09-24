@@ -44,11 +44,11 @@ body {
 
 .navigation-section .navbar-brand img {
     margin-left: 15px;
-    height: 36px;
+    height: 50px;
 }
 
 .navigation-section .navbar-nav .nav-item a:hover {
-    color: #ffffff;
+    color: #08103f !important;
 }
 
 .nav-position {
@@ -57,9 +57,8 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    color: hwb(0 100% 0%) !important;
+    color: #ffffff !important;
     border-color: #ffffff;
-    font-family:'Segoe UI';
 }
 
 .btn-register {
@@ -72,7 +71,7 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 2px;
-    background-color: #08103f;
+    background-color: #9fbbc9;
 }
 
 .btn-register:hover {
@@ -124,7 +123,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-    color: #08103f;
+    color: #9fbbc9;
     border: none;
     border-radius: 2px;
     background-color: #ffffff;
@@ -211,6 +210,8 @@ body {
     padding: 24px;
     background-color: #9fbbc9;
 }
+
+
 
 .icon-why-us {
     width: 200px;
@@ -319,8 +320,8 @@ body {
 
 .next-slide:hover {
     color: white;
-    background-color: #08103f;
-    border: 1px solid #08103f;
+    background-color: #9fbbc9;
+    border: 1px solid #9fbbc9;
 }
 
 .prev-slide {
@@ -339,8 +340,8 @@ body {
 
 .prev-slide:hover {
     color: white;
-    background-color: #08103f;
-    border: 1px solid #08103f;
+    background-color: #9fbbc9;
+    border: 1px solid #9fbbc9;
 }
 
 .owl-nav {
@@ -444,12 +445,15 @@ body {
 }
 
 .footer-section .navigation li a {
+
     color: #000000;
     text-decoration: none;
 }
 
+
+
 .footer-section .navigation li a:hover {
-    color: #08103f;
+    color: #9fbbc9;
     text-decoration: none;
 }
 
@@ -469,7 +473,9 @@ body {
 .address {
     display: block;
 }
-
+.footer-section .sosmed img {
+    width: 25px;
+}
 .footer-section .copyright img {
     width: 120px;
 }
